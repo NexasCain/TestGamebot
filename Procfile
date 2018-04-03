@@ -1,1 +1,1 @@
-worker: python nexascain.exe_bot.py
+worker: python sft_gamebot.py
