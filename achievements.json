@@ -1,0 +1,98 @@
+{
+    "achievements": [
+        {
+            "name": "Gaming Nub",
+            "description": "Play a game on the GameBot",
+            "players": [
+                "329058795026382849",
+                "171013750311223296",
+                "137237097688858624"
+            ]
+        },
+        {
+            "name": "First Blood",
+            "description": "First win in -TTT",
+            "players": [
+                "329058795026382849"
+            ]
+        },
+        {
+            "name": "Sanity is for Boring People",
+            "description": "First win in -Insanity",
+            "players": [
+                "329058795026382849",
+                "137237097688858624"
+            ]
+        },
+        {
+            "name": "Do you know the Definition of Insanity?",
+            "description": "20 wins in -Insanity",
+            "players": [
+                "329058795026382849"
+            ]
+        },
+        {
+            "name": "...It's doing the same thing over and over...",
+            "description": "40 wins in -Insanity",
+            "players": [
+                "329058795026382849"
+            ]
+        },
+        {
+            "name": "...expecting things to change.",
+            "description": "80 wins in -Insanity",
+            "players": [
+                "329058795026382849"
+            ]
+        },
+        {
+            "name": "Certified Quitter",
+            "description": "Quit 30 games.",
+            "players": [
+                "329058795026382849"
+            ]
+        },
+        {
+            "name": "Error 3005",
+            "description": "-Secret-",
+            "players": []
+        },
+        {
+            "name": "On a Silver Plater",
+            "description": "-Secret-",
+            "players": []
+        },
+        {
+            "name": "Truely Golden",
+            "description": "-Secret-",
+            "players": []
+        },
+        {
+            "name": "One with the Nexi",
+            "description": "-Secret-",
+            "players": []
+        },
+        {
+            "name": "Speed Dial",
+            "description": "Have the MOST wins in -React or -Wordguess!",
+            "players": []
+        },
+        {
+            "name": "Know when to Hold'em",
+            "description": "Win 10 games of -DiceLuck",
+            "players": []
+        },
+        {
+            "name": "First Try!",
+            "description": "Win Mastermind in one guess!",
+            "players": []
+        },
+        {
+            "name": "Hacker!",
+            "description": "Win 25 games of -Mastermind",
+            "players": [
+                "329058795026382849"
+            ]
+        }
+    ]
+}
