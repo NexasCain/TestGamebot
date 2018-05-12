@@ -26,7 +26,9 @@ bot = commands.Bot(command_prefix = "-")
 bot.remove_command('help')
 
 
-TEST_Token = "NDAwNzIxMTE0MjAxODQ5ODU4.DWqDRg.ZxIV_tTpat-zC6IJFGjDj5o7fQs"
+SFT_Token = os.environ.get('BOT_TOKEN')
+
+TEST_Token = os.environ.get('TEST_BOT_TOKEN')
 
 Bot_Token = TEST_Token
 
