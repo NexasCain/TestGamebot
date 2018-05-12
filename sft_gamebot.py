@@ -613,7 +613,7 @@ async def on_message(message):
                         else:
                             booster_price = 100000
 
-                    await bot.send_message(message.channel, "Test")
+                    #await bot.send_message(message.channel, "Test")
                     buy_desc = "**Item:** "+item+"\n\n**:large_orange_diamond: Price:** "+str(booster_price)+" :beginner:\n\n**:small_orange_diamond: Points:** "+str(player['points'])+" :beginner:\n"
                     #await bot.send_message(message.channel, "Test")
 
@@ -651,7 +651,7 @@ async def on_message(message):
                                     player['booster'] += 1
                                     with open('stats.json','w') as stats:
                                         json.dump(s,stats,indent=4)
-                                await bot.send_message(message.channel, "Finish this")
+                                #await bot.send_message(message.channel, "Finish this")
 
                             elif buy_react.reaction.emoji == '❌':
                                 await bot.delete_message(buyMsg)
