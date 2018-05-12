@@ -3,54 +3,37 @@
         {
             "name": "Gaming Nub",
             "description": "Play a game on the GameBot",
-            "players": [
-                "329058795026382849",
-                "171013750311223296",
-                "137237097688858624"
-            ]
+            "players": []
         },
         {
             "name": "First Blood",
             "description": "First win in -TTT",
-            "players": [
-                "329058795026382849"
-            ]
+            "players": []
         },
         {
             "name": "Sanity is for Boring People",
             "description": "First win in -Insanity",
-            "players": [
-                "329058795026382849",
-                "137237097688858624"
-            ]
+            "players": []
         },
         {
             "name": "Do you know the Definition of Insanity?",
             "description": "20 wins in -Insanity",
-            "players": [
-                "329058795026382849"
-            ]
+            "players": []
         },
         {
             "name": "...It's doing the same thing over and over...",
             "description": "40 wins in -Insanity",
-            "players": [
-                "329058795026382849"
-            ]
+            "players": []
         },
         {
             "name": "...expecting things to change.",
             "description": "80 wins in -Insanity",
-            "players": [
-                "329058795026382849"
-            ]
+            "players": []
         },
         {
             "name": "Certified Quitter",
             "description": "Quit 30 games.",
-            "players": [
-                "329058795026382849"
-            ]
+            "players": []
         },
         {
             "name": "Error 3005",
@@ -90,9 +73,7 @@
         {
             "name": "Hacker!",
             "description": "Win 25 games of -Mastermind",
-            "players": [
-                "329058795026382849"
-            ]
+            "players": []
         }
     ]
 }
