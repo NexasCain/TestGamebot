@@ -212,7 +212,21 @@ bothelpMessage = """**-BotHelp**
 **__[Math]__**
 **-math <Math Expression>**
 (Solves a math expression using Python supported opperations)
-(type **-BotHelp Math** for more info)"""
+(type **-BotHelp Math** for more info)
+
+**__[Misc. Commands]__**
+**__-Register__**
+(Registers you to the GameBot Statistics)
+
+**__-Profile__**
+(Shows your personal stats)
+
+**__-Leaderboard__**
+(Shows the leaderboards of different types.)
+(Enable Reactions!)
+
+**__-Buy__**
+(Allows you to buy with your points!)"""
 
 
 DiceLuckHelp = """**__DICELUCK Help__**
@@ -259,7 +273,7 @@ MathHelp = """**__[-Math Help]__**
 
 **  (Exponents)"""
 
-Bot_Info = """**__Version 1.1__**
+Bot_Info = """**__Version 1.5__**
 :video_game: I was created by Nexas Cain with the help of a meme (Rab), Plater, and the encouragement from Nexas' best friends. Nexas won't admit this, but he is very greatful for all who helped! :space_invader:"""
 
 
@@ -342,6 +356,14 @@ async def status_task():
         await asyncio.sleep(7)
         await bot.change_presence(game=discord.Game(name='-Connect4'))
         await asyncio.sleep(7)
+        await bot.change_presence(game=discord.Game(name='-Leaderboard'))
+        await asyncio.sleep(7)
+        await bot.change_presence(game=discord.Game(name='-Profile'))
+        await asyncio.sleep(7)
+        await bot.change_presence(game=discord.Game(name='-Register'))
+        await asyncio.sleep(7)
+        await bot.change_presence(game=discord.Game(name='-Buy'))
+        await asyncio.sleep(7)
 
 async def check_achievements():
     with open('stats.json') as ach:
@@ -357,7 +379,7 @@ async def check_achievements():
 @bot.event
 async def on_ready():
     print ("Ready to go Sire!")
-    print ("I am rinning on " + bot.user.name)
+    print ("I am running on " + bot.user.name)
     await bot.loop.create_task(status_task())
 
 
